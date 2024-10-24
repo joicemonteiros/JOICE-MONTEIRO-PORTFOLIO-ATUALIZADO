@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+body{
+    background-color: #cdc9a5;
+    font-family: "Satisfy", cursive;
+    font-size: large;
+    
+   
+}   
+}
+
+header{ 
+    font-family: "Yellowtail", cursive;
+    font-size: 800%;
+    background-color:#789d63;
+    width: 100%;
+    height: 180px;
+    
+    text-align: center;
+}    
+
+main{
+    padding: 5rem;
+    display: flex;
+   flex-direction: column;
+    gap: 2rem;
+    background-color: #cdc9a5;
+}
+
+p{
+    font-family: "Satisfy", cursive;
+    
+    text-align: left;
+    font-size: xx-large;
+
+}
+.container,
+.container1,
+.container2,
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 5%;
+}  
+   
+.text-container,
+.FORMAÇÃO,
+.HABILIDADES,
+.Experiencia{
+    flex:1;
+}
+
+.image-container img
+.FORMAÇÃO img ,
+.HABILIDADES img ,
+.Experiencia img{
+ width: 340px;
+    height: 340px;
+    flex-shrink: 0;
+    align-self: flex-start;
+}
+
+
+p, ul li{
+    font-family: Satisfy,cursive;
+    font-size: large;
+    line-height: 1.6;
+}   
+    
+footer {
+    background-color: #789d63;
+    padding: 20px;
+    text-align: center;
+    font-family: Satisfy, cursive;
+}
+
+
+.footer-container3  {
+    display:inline-flex;/*Coloca o ícone e o texto no mesmo nível*/
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px; 
+    font-weight: bold;
+    transition: background-color 0,3s;
+    
+}
+
+.Linkedin-buttom {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    
+}
+
+    
+.Instagram-buttom {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+ 
+
+   .Facebook-buttom {
+    display: flex; 
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Github-buttom {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.Linkedin-buttom:hover {
+    background-color: #cdc9a5;
+
+}
+ 
+.Instagram-buttom:hover {
+    background-color: #cdc9a5;
+   
+}
+    
+.Facebook-buttom:hover {
+    background-color: #cdc9a5;
+}   
+    
+.Github-buttom:hover {
+    background-color: #cdc9a5;
+}
+ 
+    
+    
+ 
+    
+
+
+ 
+ 
