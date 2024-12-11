@@ -61,10 +61,10 @@ p{
 .HABILIDADES img ,
 .Experiencia img{
  width: 340px;
-    height: 340px;
-    flex-shrink: 0;
-    align-self: flex-start;
-}
+ height: 340px;
+ flex-shrink: 0;   
+ align-self: flex-start;   
+}   
 
 
 p, ul li{
